@@ -9,17 +9,19 @@ body {
 
 .container {
   background-color: #fff;
-  width: 600px;
+  width: 800px;
   height: fit-content;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   gap:40px;
+  border-radius: 40px;
 
   .calculator-section {
     flex: 1;
     padding: 30px;
+    width: 400px;
 
     .calculator-title {
       display: flex;
@@ -30,6 +32,10 @@ body {
       display: flex;
       margin: 10px 0;
       height: 40px;
+      input{
+        outline: none;
+        
+      }
 
       button:nth-child(1){
         border-right: none;
@@ -51,5 +57,25 @@ body {
       }
       
     }
+
   }
+  #flex-xs{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 200px;
+  }
+  .jakat-option{
+    button{
+      display: block;
+      width: 100%;
+      text-align: left;
+      padding: 10px 30px;
+      margin: 20px 0;
+    }
+  }
+
 }
+.result-section{
+  flex: 1;
+};
