@@ -1,1 +1,55 @@
-@forward "./base/allcss.scss"
+@forward './base/allcss.scss';
+body {
+  background-color: rgb(207, 233, 233);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  width: 600px;
+  height: fit-content;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:40px;
+
+  .calculator-section {
+    flex: 1;
+    padding: 30px;
+
+    .calculator-title {
+      display: flex;
+      justify-content: space-between;
+      margin: 40px 0;
+    }
+    .flex {
+      display: flex;
+      margin: 10px 0;
+      height: 40px;
+
+      button:nth-child(1){
+        border-right: none;
+       
+      }
+      input:nth-child(2) {
+        border-left: none;
+      }
+
+      button:nth-child(2) {
+        border-left: none;
+        padding: 10px;
+      }
+      input:nth-child(1) {
+        border-right: none;
+      }
+      button{
+        background-color: aquamarine;
+      }
+      
+    }
+  }
+}

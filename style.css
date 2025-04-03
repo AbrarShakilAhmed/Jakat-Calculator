@@ -16,42 +16,22 @@ body {
 
 .container {
   background-color: #fff;
-  width: 600px;
+  max-width: 800px;
+  padding: 0px;
   height: -moz-fit-content;
   height: fit-content;
   margin: auto;
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 40px;
 }
 .container .calculator-section {
   flex: 1;
-  padding: 30px;
 }
 .container .calculator-section .calculator-title {
   display: flex;
   justify-content: space-between;
-  margin: 40px 0;
 }
 .container .calculator-section .flex {
   display: flex;
-  margin: 10px 0;
-  height: 40px;
-}
-.container .calculator-section .flex button:nth-child(1) {
-  border-right: none;
-}
-.container .calculator-section .flex input:nth-child(2) {
-  border-left: none;
-}
-.container .calculator-section .flex button:nth-child(2) {
-  border-left: none;
-  padding: 10px;
-}
-.container .calculator-section .flex input:nth-child(1) {
-  border-right: none;
-}
-.container .calculator-section .flex button {
-  background-color: aquamarine;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
