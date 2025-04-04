@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Jakat Calculator</title>
     <link rel="stylesheet" href="dist/style.css" />
     <link
       rel="shortcut icon"
@@ -16,10 +16,10 @@
       <section class="calculator-section">
         <div class="calculator-title">
           <h1>Jakat Calculator</h1>
-          <button>Clear All</button>
+          <button class="clear-btn">Clear All</button>
         </div>
         <div class="jakat-ammount">
-          <h2>Total Ammount</h2>
+          <h2>Total Amount</h2>
           <div class="ammount-number">
             <div class="flex">
               <button>
@@ -45,19 +45,21 @@
           </div>
           <div class="jakat-option">
             <button>
-              <input type="radio" name="this" id="" />
-              Instant Pay jakat
+              <input type="radio" name="payment" id="instant" />
+              Instant Pay Jakat
             </button>
             <button>
-              <input type="radio" name="this" id="" />
+              <input type="radio" name="payment" id="letter" />
               I do letter
             </button>
           </div>
         </div>
-        <button id="flex-xs" ><img src="./assets/images/icon-calculator.svg" alt=""> Calculate</button>
+        <button id="flex-xs">
+          <img src="./assets/images/icon-calculator.svg" alt=""> Calculate
+        </button>
       </section>
       <section class="result-section">
-        <h2>Your Total jakat</h2>
+        <h2 class="title">Your Total Jakat</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque minus
           animi, totam officia error quis veniam soluta natus unde mollitia
@@ -65,17 +67,19 @@
           Quod.
         </p>
         <div class="result-container">
-          <p>Your total jakat is</p>
+          <div class="hr"></div>
+          <p>Your total Jakat is</p>
           <div>
             <h2>00000</h2>
             <img src="assets/images/taka.png" width="40" alt="" />
           </div>
           <div>
-            <p>Today total payed by us</p>
-            <h2>0000001</h2>
+            <p>Today total paid by us</p>
+            <h3>0000001</h3>
           </div>
         </div>
       </section>
     </div>
+    <script src="App.js"></script>
   </body>
 </html>
