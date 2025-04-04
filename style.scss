@@ -17,7 +17,7 @@ body {
   background-color: #fff;
   width: 90%;
   max-width: 800px;
-  height: 700px;
+  // height: 700px;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -25,7 +25,7 @@ body {
   gap: 40px;
   border-radius: 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  // overflow: hidden;
+  overflow: hidden;
   flex-wrap: wrap;
 }
 
@@ -140,6 +140,7 @@ body {
   text-align: center;
   border-radius: 30px;
   overflow: hidden;
+  margin-bottom: 100px;
 
   h2 {
     font-size: 40px;
