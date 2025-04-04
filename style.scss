@@ -1,6 +1,6 @@
 @forward './base/allcss.scss';
 
-$primary-color: #33b5e5;
+$primary-color: #ffc219;
 $neon-color: #00ff00;
 
 body {
@@ -16,7 +16,7 @@ body {
 .container {
   background-color: #fff;
   width: 90%;
-  max-width: 800px;
+  max-width: 1000px;
   // height: 700px;
   margin: auto;
   display: flex;
@@ -70,7 +70,7 @@ body {
     }
 
     button {
-      background-color: #33b5e5;
+      background-color: #7197a5;
       color: #fff;
       padding: 0 15px;
       cursor: pointer;
@@ -154,7 +154,7 @@ body {
 
   .hr {
     height: 5px;
-    background-color: aquamarine;
+    background-color: rgb(47, 85, 72);
     width: 100%;
     margin-bottom: 30px;
     border-top-right-radius: 2px;

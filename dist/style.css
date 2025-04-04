@@ -19,7 +19,7 @@ body {
 .container {
   background-color: #fff;
   width: 90%;
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -69,7 +69,7 @@ body {
   border-radius: 5px;
 }
 .calculator-section .flex button {
-  background-color: #33b5e5;
+  background-color: #7197a5;
   color: #fff;
   padding: 0 15px;
   cursor: pointer;
@@ -146,7 +146,7 @@ body {
 }
 .result-container .hr {
   height: 5px;
-  background-color: aquamarine;
+  background-color: rgb(47, 85, 72);
   width: 100%;
   margin-bottom: 30px;
   border-top-right-radius: 2px;
